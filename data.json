@@ -1,13 +1,13 @@
 
 {
   "personal": {
-    "name": "THE honoured one",
+    "name": "VINAYAK TALWAR ",
     "title": "BCA Student | Aspiring Web Developer",
     "status": "Currently Learning & Building",
     "introduction": "I am a passionate BCA 1st Year student with a strong interest in web development, programming, and technology. Inspired by anime, creativity, and the power of continuous learning, I enjoy turning ideas into interactive digital experiences.",
     "careerGoal": "My goal is to become a skilled Full Stack Developer and create powerful, creative, and meaningful digital experiences.",
-    "profileImage": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=80",
-    "aboutImage": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=80",
+    "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDHdjntzr7BWlHxVA45GBkzyGi8aFX0zFw2zJUli-j4tYWiRLrr7CWPgKa&s=10",
+    "aboutImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDHdjntzr7BWlHxVA45GBkzyGi8aFX0zFw2zJUli-j4tYWiRLrr7CWPgKa&s=10",
     "email": "honouredone@example.com",
     "phone": "+91 9876543210",
     "location": "India",
@@ -62,7 +62,7 @@
   "projects": [
     {
       "name": "Anime Portfolio Website",
-      "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=80",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDHdjntzr7BWlHxVA45GBkzyGi8aFX0zFw2zJUli-j4tYWiRLrr7CWPgKa&s=10",
       "description": "A personal portfolio website with an anime-inspired theme, glowing effects, responsive design, and dynamic JSON content.",
       "technologies": ["HTML", "CSS", "Bootstrap", "JavaScript", "JSON"],
       "link": "https://github.com/"
@@ -168,3 +168,5 @@
     "description": "The journey of a thousand lines of code begins with one idea. Keep learning. Keep building. Keep evolving."
   }
 }
+
+
