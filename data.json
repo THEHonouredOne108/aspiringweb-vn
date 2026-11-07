@@ -8,8 +8,8 @@
     "careerGoal": "My goal is to become a skilled Full Stack Developer and create powerful, creative, and meaningful digital experiences.",
     "profileImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDHdjntzr7BWlHxVA45GBkzyGi8aFX0zFw2zJUli-j4tYWiRLrr7CWPgKa&s=10",
     "aboutImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDHdjntzr7BWlHxVA45GBkzyGi8aFX0zFw2zJUli-j4tYWiRLrr7CWPgKa&s=10",
-    "email": "honouredone@example.com",
-    "phone": "+91 9876543210",
+    "email": "vtalwar033@klebcahubli.in",
+    "phone": "+91 9999999999",
     "location": "India",
     "resume": "resume.pdf"
   },
@@ -61,7 +61,7 @@
 
   "projects": [
     {
-      "name": "Anime Portfolio Website",
+      "name": " my Portfolio Website",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDHdjntzr7BWlHxVA45GBkzyGi8aFX0zFw2zJUli-j4tYWiRLrr7CWPgKa&s=10",
       "description": "A personal portfolio website with an anime-inspired theme, glowing effects, responsive design, and dynamic JSON content.",
       "technologies": ["HTML", "CSS", "Bootstrap", "JavaScript", "JSON"],
@@ -93,7 +93,7 @@
   "education": [
     {
       "course": "Bachelor of Computer Applications (BCA)",
-      "college": "Your College Name",
+      "college": "PC JABIN ",
       "duration": "2026 - 2029",
       "semester": "1st Year | 1st Semester",
       "details": "Currently pursuing BCA with an interest in computer programming, web development, and software technologies."
@@ -168,5 +168,3 @@
     "description": "The journey of a thousand lines of code begins with one idea. Keep learning. Keep building. Keep evolving."
   }
 }
-
-
