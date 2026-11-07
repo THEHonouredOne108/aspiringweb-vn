@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE honoured one | Anime Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+    <div class="container">
+        <a class="navbar-brand logo" href="#home" id="navName">THE honoured one</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#certifications">Certificates</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="loading" class="loading-screen">
+    <div class="aura-loader"></div>
+    <p>Awakening the portfolio...</p>
+</div>
+
+<div id="errorMessage" class="container error-message" hidden>
+    <h2>Portfolio could not be loaded</h2>
+    <p>Check your data.json file and use VS Code Live Server.</p>
+    <button class="btn anime-btn" onclick="location.reload()">Retry</button>
+</div>
+
+<main id="portfolio" hidden>
+
+    <!-- HERO -->
+    <section class="hero-section" id="home">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+
+                <div class="col-lg-7 hero-content">
+                    <span class="hero-label">
+                        <span class="pulse-dot"></span>
+                        <span id="status"></span>
+                    </span>
+
+                    <p class="hero-small">WELCOME TO MY DOMAIN</p>
+
+                    <h1 id="heroName"></h1>
+
+                    <h2 id="heroTitle"></h2>
+
+                    <p id="heroIntro" class="hero-description"></p>
+
+                    <div class="goal-box">
+                        <i class="bi bi-lightning-charge-fill"></i>
+                        <span id="heroGoal"></span>
+                    </div>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn anime-btn">
+                            Explore Projects <i class="bi bi-arrow-up-right"></i>
+                        </a>
+
+                        <a href="#" id="resumeButton" class="btn outline-btn" target="_blank" rel="noopener">
+                            <i class="bi bi-download"></i> Download Resume
+                        </a>
+                    </div>
+
+                    <div id="heroSocial" class="social-links"></div>
+                </div>
+
+                <div class="col-lg-5 hero-visual">
+                    <div class="aura-circle"></div>
+                    <div class="profile-frame">
+                        <img id="profileImage" src="" alt="Anime themed profile">
+                    </div>
+
+                    <div class="floating-tag">
+                        <i class="bi bi-code-slash"></i>
+                        <div>
+                            <strong id="courseTag"></strong>
+                            <small id="yearTag"></small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section-padding" id="about">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-subtitle">MY STORY</span>
+                <h2>About <span class="gradient-text">Me</span></h2>
+                <p>Every great journey begins with a single step.</p>
+            </div>
+
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5">
+                    <img id="aboutImage" class="about-image" src="" alt="About me">
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="anime-card about-card">
+                        <h3 id="aboutTitle"></h3>
+                        <p id="aboutDescription"></p>
+
+                        <div id="aboutInfo" class="about-info"></div>
+
+                        <div class="objective-box">
+                            <h4><i class="bi bi-bullseye"></i> My Objective</h4>
+                            <p id="aboutObjective"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section-padding section-alt" id="skills">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-subtitle">MY ABILITIES</span>
+                <h2>My <span class="gradient-text">Skills</span></h2>
+                <p>My current technical abilities and learning path.</p>
+            </div>
+
+            <div class="row g-4" id="skillsContainer"></div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section-padding" id="projects">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-subtitle">MY CREATIONS</span>
+                <h2>Featured <span class="gradient-text">Projects</span></h2>
+                <p>Small creations. Big ambitions.</p>
+            </div>
+
+            <div class="row g-4" id="projectsContainer"></div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section-padding section-alt" id="education">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-subtitle">MY JOURNEY</span>
+                <h2>My <span class="gradient-text">Education</span></h2>
+            </div>
+
+            <div id="educationContainer" class="timeline"></div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section-padding" id="certifications">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-subtitle">POWER UPS</span>
+                <h2>Certifications & <span class="gradient-text">Achievements</span></h2>
+            </div>
+
+            <div class="row g-4" id="certificationsContainer"></div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section-padding section-alt" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-subtitle">CONNECT WITH ME</span>
+                <h2>Contact <span class="gradient-text">Me</span></h2>
+                <p>Let's create something extraordinary.</p>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-lg-5">
+                    <div class="anime-card contact-details">
+                        <h3>Let's Talk</h3>
+                        <p>Have an idea, opportunity, or just want to connect?</p>
+                        <div id="contactInfo"></div>
+                        <div id="contactSocial" class="social-links"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <form id="contactForm" class="anime-card contact-form" novalidate>
+                        <div class="row g-3">
+
+                            <div class="col-md-6">
+                                <label for="contactName">Name</label>
+                                <input class="form-control" id="contactName" type="text" placeholder="Your name" required>
+                                <div class="invalid-feedback">Please enter your name.</div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label for="contactEmail">Email</label>
+                                <input class="form-control" id="contactEmail" type="email" placeholder="Your email" required>
+                                <div class="invalid-feedback">Enter a valid email address.</div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="contactSubject">Subject</label>
+                                <input class="form-control" id="contactSubject" type="text" placeholder="Subject" required>
+                                <div class="invalid-feedback">Please enter a subject.</div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="contactMessage">Message</label>
+                                <textarea class="form-control" id="contactMessage" rows="5" placeholder="Your message..." required></textarea>
+                                <div class="invalid-feedback">Please write a message.</div>
+                            </div>
+
+                            <div class="col-12">
+                                <button class="btn anime-btn" type="submit">
+                                    Send Message <i class="bi bi-send"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <p id="formMessage" class="form-message"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <h3 id="footerName"></h3>
+            <p id="footerText"></p>
+            <div id="footerSocial" class="social-links justify-content-center"></div>
+
+            <div class="footer-bottom">
+                <p id="copyrightText"></p>
+                <a href="#home">Back to Top ↑</a>
+            </div>
+        </div>
+    </footer>
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

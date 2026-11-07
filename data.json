@@ -1,0 +1,170 @@
+
+{
+  "personal": {
+    "name": "THE honoured one",
+    "title": "BCA Student | Aspiring Web Developer",
+    "status": "Currently Learning & Building",
+    "introduction": "I am a passionate BCA 1st Year student with a strong interest in web development, programming, and technology. Inspired by anime, creativity, and the power of continuous learning, I enjoy turning ideas into interactive digital experiences.",
+    "careerGoal": "My goal is to become a skilled Full Stack Developer and create powerful, creative, and meaningful digital experiences.",
+    "profileImage": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=80",
+    "aboutImage": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=80",
+    "email": "honouredone@example.com",
+    "phone": "+91 9876543210",
+    "location": "India",
+    "resume": "resume.pdf"
+  },
+
+  "about": {
+    "title": "A Student With a Developer's Mindset",
+    "description": "I am currently pursuing Bachelor of Computer Applications (BCA). I am exploring HTML, CSS, JavaScript, Bootstrap, C, and C++. I enjoy designing websites, solving programming problems, and learning new technologies. My interest in anime inspires my creativity, imagination, and determination to improve my skills.",
+    "objective": "To develop strong programming fundamentals, gain practical experience through projects, and become a professional software developer capable of building innovative and user-friendly applications."
+  },
+
+  "skills": [
+    {
+      "name": "HTML5",
+      "icon": "bi bi-filetype-html",
+      "level": 90,
+      "description": "Building structured and semantic web pages."
+    },
+    {
+      "name": "CSS3",
+      "icon": "bi bi-filetype-css",
+      "level": 85,
+      "description": "Creating stylish and responsive website designs."
+    },
+    {
+      "name": "JavaScript",
+      "icon": "bi bi-filetype-js",
+      "level": 65,
+      "description": "Learning dynamic and interactive websites."
+    },
+    {
+      "name": "Bootstrap 5",
+      "icon": "bi bi-bootstrap",
+      "level": 75,
+      "description": "Developing responsive layouts efficiently."
+    },
+    {
+      "name": "C Programming",
+      "icon": "bi bi-terminal",
+      "level": 70,
+      "description": "Understanding programming fundamentals."
+    },
+    {
+      "name": "C++",
+      "icon": "bi bi-code-slash",
+      "level": 60,
+      "description": "Exploring object-oriented programming."
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Anime Portfolio Website",
+      "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=80",
+      "description": "A personal portfolio website with an anime-inspired theme, glowing effects, responsive design, and dynamic JSON content.",
+      "technologies": ["HTML", "CSS", "Bootstrap", "JavaScript", "JSON"],
+      "link": "https://github.com/"
+    },
+    {
+      "name": "Student Management System",
+      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80",
+      "description": "A student management interface designed to organize student details, academic records, and basic information.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "link": "https://github.com/"
+    },
+    {
+      "name": "Calculator Application",
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=800&q=80",
+      "description": "A modern calculator with a clean interface for performing basic mathematical operations.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "link": "https://github.com/"
+    },
+    {
+      "name": "Landing Page Design",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+      "description": "A responsive landing page featuring modern layouts, attractive visuals, and interactive UI elements.",
+      "technologies": ["HTML5", "CSS3", "Bootstrap 5"],
+      "link": "https://github.com/"
+    }
+  ],
+
+  "education": [
+    {
+      "course": "Bachelor of Computer Applications (BCA)",
+      "college": "Your College Name",
+      "duration": "2026 - 2029",
+      "semester": "1st Year | 1st Semester",
+      "details": "Currently pursuing BCA with an interest in computer programming, web development, and software technologies."
+    },
+    {
+      "course": "Higher Secondary Education",
+      "college": "Your PUC / 12th College Name",
+      "duration": "2024 - 2026",
+      "semester": "Completed",
+      "details": "Completed higher secondary education and developed an interest in computer science."
+    },
+    {
+      "course": "Secondary School Education",
+      "college": "Your School Name",
+      "duration": "2023 - 2024",
+      "semester": "Completed",
+      "details": "Completed secondary education and developed foundational academic skills."
+    }
+  ],
+
+  "certifications": [
+    {
+      "name": "HTML & CSS Fundamentals",
+      "issuer": "Online Learning Platform",
+      "year": "2026",
+      "link": "#"
+    },
+    {
+      "name": "Introduction to C Programming",
+      "issuer": "Online Learning Platform",
+      "year": "2026",
+      "link": "#"
+    },
+    {
+      "name": "JavaScript Basics",
+      "issuer": "Online Learning Platform",
+      "year": "2026",
+      "link": "#"
+    },
+    {
+      "name": "Web Development Workshop",
+      "issuer": "College Workshop",
+      "year": "2026",
+      "link": "#"
+    }
+  ],
+
+  "socialLinks": [
+    {
+      "name": "GitHub",
+      "icon": "bi bi-github",
+      "url": "https://github.com/"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "bi bi-linkedin",
+      "url": "https://www.linkedin.com/"
+    },
+    {
+      "name": "Instagram",
+      "icon": "bi bi-instagram",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "name": "YouTube",
+      "icon": "bi bi-youtube",
+      "url": "https://www.youtube.com/"
+    }
+  ],
+
+  "footer": {
+    "description": "The journey of a thousand lines of code begins with one idea. Keep learning. Keep building. Keep evolving."
+  }
+}
